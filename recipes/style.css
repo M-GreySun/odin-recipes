@@ -1,29 +1,56 @@
 body{
     color: black;
-    background-color:white;
+    background-color: seashell;
     font-size: 36px;
+    display:block;
+    box-sizing: border-box;
 }
 
 h1,h2{
-    text-align: center;
-    color:rgb(55, 111, 255);
+    color:white;
     font-weight: bold;
+    background-color: rgb(94, 140, 255);
+    text-align: center;
+}
+img{
+
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    width: auto;
+    margin-bottom: 30px
+}
+h2{
+    font-size: 48;
+    padding:5px;
+    margin-right:75%;
+    display:inline;
+    
 }
 p,h3{
     font-style: italic;
 }
 h1{
+    text-align: center;
     font-size: 60px;
+    margin: 5% 25%;
+    padding: 20px;
 }
-ul{
-    color:orange;
+
+
+li::marker{
+    color: rgb(94, 140, 255);
 }
-ol{
-    color:green;
+li{
+    
+    margin: 10px;
+    
 }
-h2{
-    font-size: 48;
+
+ul {    
+    margin:30px;
 }
+
 h3{
     color:purple;
 }

@@ -1,27 +1,27 @@
 body{
     color: black;
-    background-color:white;
+    background-color: seashell;
     font-size: 36px;
+    display:block;
 }
 
-h1,h2{
-    text-align: center;
-    color:rgb(55, 111, 255);
-    font-weight: bold;
-    
-}
+
 h1{
+    text-align: center;
+    color:white;
+    font-weight: bold;
     font-size: 60px;
+    background-color: rgb(94, 140, 255);
+    /*
+        4 Values: top | right | bottom | left
+        3 Values: top | right and left | bottom
+        2 Values: top and bottom | right and left
+        1 Value:  top right bottom left
+    */
+    margin: 5% 25%;
+    padding: 20px;
 }
 ul{
-    color:orange;
+    color:black;
 }
-ol{
-    color:green;
-}
-h2{
-    font-size: 48;
-}
-h3{
-    font-style: italic;
-}
+
